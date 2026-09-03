@@ -11,7 +11,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack'
 // Importamos as telas do aplicativo.
 import PaginaStart from './pages/PaginaStart'
 import ChooseYourPokemon from './pages/ChooseYourPokemon'
-
+import PaginaJogo from './pages/PaginaJogo'
 
 // Criamos o Stack que vai armazenar
 // as telas disponíveis para navegação.
@@ -48,6 +48,10 @@ export default function App() {
         <Stack.Screen
           name="ChooseYourPokemon"
           component={ChooseYourPokemon}
+        />
+        <Stack.Screen
+          name="PaginaJogo"
+          component={PaginaJogo}
         />
 
       </Stack.Navigator>

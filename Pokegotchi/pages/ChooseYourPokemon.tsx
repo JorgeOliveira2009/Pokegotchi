@@ -138,7 +138,7 @@ const ChooseYourPokemon = ({ navigation }: any) => {
     // Enviamos o jogador para a tela do jogo.
     // O nome do Pokémon escolhido é enviado
     // como parâmetro para a próxima tela.
-    navigation.navigate('Jogo', {
+    navigation.navigate('PaginaJogo', {
       pokemon: pokemon.name,
     })
   }
